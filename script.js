@@ -9,8 +9,8 @@ shareBtn.addEventListener('click', async () => {
         const file = new File([blob], "shared-image.jpg", { type: blob.type });
 
         const data = {
-            title: "Check this out!",
-            text: "Here's an awesome image!",
+            title: "Amazing Image!",
+            text: "Hey! Check out this cool image I found. What do you think? 😍",
             files: [file]
         };
 
